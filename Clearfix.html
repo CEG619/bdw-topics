@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Clearfix</title>
+  </head>
+  <body>
+    	<h1>Clearfix: Fixing a Float Collapse</h1>
+  			
+  					<p>
+  						Clear is a sister property to Float. It is the solution to a "collapse" caused by the CSS positioning property of Float. When you Float something, it is no longer conccected to its parent element and the parent element fails to adjust and contain the floated element within. Clearfix should be applied to the parent element with the following css:
+            </p>
+            <pre>
+              <code>
+                      .clearfix:after {
+                        content: &quot;&quot;;
+                        display: table;
+                        clear: both;
+                      }
+              </code>
+            </pre>
+        <h2>Source Articles</h2>
+        <h4>
+          <a href="http://css-tricks.com/all-about-floats/">CSS&ndash;Tricks Article</a>
+        </h4>
+        <h4>
+    			<a href="http://coding.smashingmagazine.com/2009/10/19/the-mystery-of-css-float-property/">Smashing Magazine Article</a>
+    		</h4>
+        <h4>Chris Gallagher</h4>
+  </body>
+</html>
